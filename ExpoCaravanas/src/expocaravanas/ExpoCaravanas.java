@@ -84,8 +84,10 @@ public class ExpoCaravanas
                     }
                     
                         if(elecTicket >0 || elecTicket >1000)
+                        {
                             zona1.sell(elecTicket);
-                        
+                            System.out.println("entradas conmpradas");
+                        }    
                         else System.out.println("No hay tantas entradas.");
                 }
                 
@@ -106,9 +108,11 @@ public class ExpoCaravanas
                         election=3;
                     }
                     
-                        if(elecTicket >0 || elecTicket >1000)
+                        if(elecTicket >0 || elecTicket >200)
+                        {
                             zona1.sell(elecTicket);
-                        
+                            System.out.println("entradas conmpradas");
+                        }
                         else System.out.println("No hay tantas entradas.");
                 }
                 
@@ -129,9 +133,11 @@ public class ExpoCaravanas
                         election=3;
                     }
                     
-                        if(elecTicket >0 || elecTicket >1000)
+                        if(elecTicket >0 || elecTicket >25)
+                        {
                             zona1.sell(elecTicket);
-                        
+                            System.out.println("entradas conmpradas");
+                        }
                         else System.out.println("No hay tantas entradas.");
                 }
                 
