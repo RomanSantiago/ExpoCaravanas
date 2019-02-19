@@ -79,14 +79,14 @@ public class ExpoCaravanas
                 }
                     catch(NumberFormatException e)
                     {
-                        System.out.println("Error, pon un numero del 1 al 3");
+                        System.out.println("Error, solo se pueden comprar entradas con numeros enteros.");
                         election=3;
                     }
                     
                         if(elecTicket >0 || elecTicket >1000)
                             zona1.sell(elecTicket);
                         
-                        else System.out.println("Numero de entradas invalido.");
+                        else System.out.println("No hay tantas entradas.");
                 }
                 
                 
@@ -102,14 +102,14 @@ public class ExpoCaravanas
                 }
                     catch(NumberFormatException e)
                     {
-                        System.out.println("Error, pon un numero del 1 al 3");
+                        System.out.println("Error, solo se pueden comprar entradas con numeros enteros.");
                         election=3;
                     }
                     
                         if(elecTicket >0 || elecTicket >1000)
                             zona1.sell(elecTicket);
                         
-                        else System.out.println("Numero de entradas invalido.");
+                        else System.out.println("No hay tantas entradas.");
                 }
                 
                 
@@ -125,14 +125,14 @@ public class ExpoCaravanas
                 }
                     catch(NumberFormatException e)
                     {
-                        System.out.println("Error, pon un numero del 1 al 3");
+                        System.out.println("Error, solo se pueden comprar entradas con numeros enteros.");
                         election=3;
                     }
                     
                         if(elecTicket >0 || elecTicket >1000)
                             zona1.sell(elecTicket);
                         
-                        else System.out.println("Numero de entradas invalido.");
+                        else System.out.println("No hay tantas entradas.");
                 }
                 
                   
